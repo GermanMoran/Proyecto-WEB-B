@@ -1,0 +1,32 @@
+# Curse: https://www.youtube.com/watch?v=TpB6rk7fKvQ&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=11
+
+# ======================== COMANDOS BASICOS GITHUB ========================================0
+
+git init: Inicializar repositorio
+git status -s : Estado de los archivos o directorios , para verificar el seguimiento (Commit).
+git add : Realizar seguimiento del archivo x
+git commit -m "": Obtener una intantanea (Foto del ARCHIVO)
+git log --oneline : listado de todas las copias realizadas en el repositorio local
+git reset --hard codigo_intantanea : restauración del archivo o intantea seleccionada, pero no mantiene las otras fotos generadas durante el proceso.
+git branch -M main: Switch rama main
+git remote add origin https://github.com/GermanMoran/CursoGit.git : Conectar repositorio remoto
+git push -u origin main  : push con la rama principal
+
+============================ RAMAS GITHUB ============================
+
+git branch javascript : crear una nueva rama
+git branch : ver las ramas del proyecto y en cual se encuntra
+git checkout javascript:  Nombre de la rama a la que me quiero mover.
+
+# Fucionar lo que se ha hecho en otra rama (merge)
+Nota: Merge se debe hacer sobre la rama master (main, master)
+git merge NuevaRama: Merge con la rama master.
+git branch -d RamaNueva :Borrar una rama arbitraria
+
+==============================FORK ==================================
+
+- Se crea una copia identica del repositorio en GITHUB - No localmente
+- Puede utilizarse como base para nuevos proyectos.
+- Poder colaborar con otros programadores.
+- Pull request: sugerencia al programador original para que pueda ver que modificaciones se han realizado en el proyecto.
+- El pull request se puede aceptar o rechazar..

@@ -1,6 +1,6 @@
 # Curse: https://www.youtube.com/watch?v=TpB6rk7fKvQ&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=11
 
-# ======================== COMANDOS BASICOS GITHUB ========================================0
+# ======================== COMANDOS BASICOS GITHUB ========================================
 
 git init: Inicializar repositorio
 git status -s : Estado de los archivos o directorios , para verificar el seguimiento (Commit).
